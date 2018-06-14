@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QUANLYBENHNHANModelStoreContainer" CdmEntityContainer="QUANLYBENHNHANEntities1">
+    <EntitySetMapping Name="BENHNHANs">
+      <EntityTypeMapping TypeName="QUANLYBENHNHANModel.BENHNHAN">
+        <MappingFragment StoreEntitySet="BENHNHAN">
+          <ScalarProperty Name="MABN" ColumnName="MABN" />
+          <ScalarProperty Name="TENBN" ColumnName="TENBN" />
+          <ScalarProperty Name="TUOIBN" ColumnName="TUOIBN" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="SDTBN" ColumnName="SDTBN" />
+          <ScalarProperty Name="BHYT" ColumnName="BHYT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
